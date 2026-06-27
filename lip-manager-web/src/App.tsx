@@ -1,10 +1,8 @@
 import './App.css'
-import AppLayout from './components/AppLayout';
+import Routes from './routes/Routes'
 
 function App() {
-  return (
-     <AppLayout />
-  )
+  return <Routes />
 }
 
 export default App
